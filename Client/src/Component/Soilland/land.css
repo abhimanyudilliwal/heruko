@@ -1,0 +1,13 @@
+.clcard{
+    width: 28rem;
+    background-color: #e0ffe0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+    .clcard{
+width: 11.5rem;
+        
+        
+    }
+  }

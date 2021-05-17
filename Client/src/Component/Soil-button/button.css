@@ -1,0 +1,43 @@
+.bcon{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn{
+    width: 350ox;
+    background-color: green;
+    font-size: 24px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+   
+    color: white;
+}
+.hyper{
+    text-decoration:none;
+    color: white;
+}
+.hyper:hover{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width: 450px) {
+    .btn{
+width: 9rem;
+text-align: end;
+margin-top: 30px;
+        
+        
+    }
+  }
+
+  
+@media only screen and (max-width: 450px) {
+    .bcon{
+text-align: center;
+margin-top: 30px;
+        
+        
+    }
+  }

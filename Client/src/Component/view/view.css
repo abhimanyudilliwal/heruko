@@ -1,0 +1,15 @@
+.editclose{
+    font-size: medium;
+    padding: none;
+    background-color: rgb(169, 255, 188);
+    color: black;
+
+}
+
+.editsave{
+    font-size: medium;
+    padding: none;
+    background-color: rgb(188, 255, 197);
+    color: black;
+
+}

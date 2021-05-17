@@ -1,0 +1,148 @@
+.elseland{
+    
+    background-color: #e0ffe0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .elseland{
+width: 11.5rem;
+        
+        
+    }
+  }
+
+  .elsland{
+
+    
+   
+    padding: 5px;
+   
+    background: #e0ffe0;
+   
+    text-align: center;
+   
+   }
+   
+   .elsland h1{
+   
+    color: white;
+   
+    text-transform: uppercase;
+   
+    font-weight: 500;
+   
+   }
+   
+   .elsland input[type = "text"], .elsland input[type = "password"],.elsland input[type = "phone"]{
+   
+    border: 0;
+   
+    background: white;
+   
+    display: block;
+   
+    margin: 8px auto;
+   
+    text-align: center;
+   
+    border: 2px solid #b9b9b9;
+   
+    padding: 14px 10px;
+   
+    width:100%;
+   
+    outline: none;
+   
+    color: rgb(0, 0, 0);
+   
+    border-radius: 24px;
+   
+    transition: 0.25s;
+   
+   }
+   
+   .elsland input[type = "text"]:focus,.elsland input[type = "password"]:focus,.elsland input[type = "password"]:focus{
+   
+    
+   
+    border-color: #000000;
+   
+   }
+   
+   
+   
+   .elsland button[type = "submit"]
+   
+   {
+   
+     border: 0;
+   
+    background: green;
+   
+    display: block;
+   
+    margin: 8px auto;
+   
+    text-align: center;
+   
+  /*   border: 2px solid #c2c2c2; */
+   
+    padding: 14px 40px;
+   
+    outline: none;
+   
+    color: white;
+   
+    border-radius: 24px;
+   
+    transition: 0.25s;
+   
+    cursor: pointer;
+   
+   }
+   
+   
+   
+   .elsland button[type = "submit"]:hover
+   
+   {
+   
+    background: #2ecc71;
+   
+   } 
+
+   @media only screen and (max-width: 450px) {
+    .elsland{
+     width: 150p;
+     padding: 0px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .elsland input[type = "text"], .elsland input[type = "password"]{
+   
+    padding: 10px;
+    }
+  }
+ 
+
+  @media only screen and (max-width: 450px) {
+    .elsland input[type = "text"]:focus,.elsland input[type = "password"]:focus{
+  
+    padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .elsland button[type = "submit"]{
+   
+    padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .scl{
+   
+    padding-top: 30px;
+    }
+  }
